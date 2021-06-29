@@ -60,7 +60,7 @@ const Signup = () => {
   return (
     <>
       <div className="login">
-        <div className="login__wrapper">
+        <div data-aos="zoom-in"  className="login__wrapper">
           <div className="login__brand">Six-Sense</div>
           {/* <div className="login__head">Sign-up</div> */}
           <form className="detailForm">
