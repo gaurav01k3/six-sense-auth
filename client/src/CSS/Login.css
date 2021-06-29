@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.login,
+.login__wrapper,
+.detailForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  min-height: 100vh;
+}
+.login__wrapper {
+  width: 50rem;
+  height: 60rem;
+  background-color: rgb(60, 185, 243);
+  position: relative;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem 0.2rem rgb(7, 41, 73);
+  flex-basis: 1;
+}
+
+.login__brand {
+  font-size: 5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 3rem;
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.login__head {
+  font-size: 3rem;
+  font-weight: 600;
+  position: absolute;
+  z-index: 100;
+  top: 8rem;
+}
+
+::placeholder {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+.detailForm {
+  width: 100%;
+}
+
+.detailForm input {
+  width: 80%;
+  height: 4rem;
+  margin-top: 3rem;
+  outline: none;
+  border: none;
+  background-color: aliceblue;
+  /* border-radius: 3px; */
+  font-size: 1.8rem;
+  padding: 1rem;
+  background-color: rgb(60, 185, 243);
+  border-bottom: 1px solid;
+}
+
+.detailForm button {
+  margin-top: 4rem;
+  width: 40%;
+  height: 3.5rem;
+  font-size: 2rem;
+  line-height: 100%;
+  border-radius: 0.4rem;
+  font-weight: 600;
+  border: 1px solid rgb(19, 111, 153);
+  transition: all 0.2s linear;
+}
+
+.detailForm button:hover {
+  /* background-color: rgb(172, 210, 230); */
+  color: rgb(19, 111, 153);
+  box-shadow: 0 0 1rem 0.2rem rgb(36, 21, 121);
+}
+
+.login__link {
+  margin-top: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+.login__link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
